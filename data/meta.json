@@ -1,0 +1,125 @@
+{
+  "last_updated": "2026-03-29T09:52:44Z",
+  "version": "1.0.0",
+  "stats": {
+    "repositories": 10,
+    "articles": 23,
+    "people": 8,
+    "total_resources": 41
+  },
+  "recent_additions": [
+    {
+      "id": "art-91051e13",
+      "type": "article",
+      "title_zh": "Harness 工程：AI Agent 缺失的关键层",
+      "title_en": "Harness Engineering: The Missing Layer Behind AI Agents",
+      "added_at": "2026-03-29",
+      "url": "https://www.louisbouchard.ai/harness-engineering"
+    },
+    {
+      "id": "art-495186aa",
+      "type": "article",
+      "title_zh": "什么是 Harness Engineering？AI Agent 开发完整指南 (2026)",
+      "title_en": "What Is Harness Engineering? Complete Guide for AI Agent Development (2026)",
+      "added_at": "2026-03-29",
+      "url": "https://www.nxcode.io/resources/news/what-is-harness-engineering-complete-guide-2026"
+    },
+    {
+      "id": "art-b33b869f",
+      "type": "article",
+      "title_zh": "构建生产级AI Agent Harness",
+      "title_en": "Building a Production-Ready AI Agent Harness",
+      "added_at": "2026-03-29",
+      "url": "https://dev.to/apssouza22/building-a-production-ready-ai-agent-harness-2570"
+    },
+    {
+      "id": "art-e063101d",
+      "type": "article",
+      "title_zh": "什么是 Agent Harness？可靠 AI 的关键",
+      "title_en": "What Is an Agent Harness? The Key to Reliable AI",
+      "added_at": "2026-03-29",
+      "url": "https://www.salesforce.com/agentforce/ai-agents/agent-harness"
+    },
+    {
+      "id": "art-85f91a62",
+      "type": "article",
+      "title_zh": "什么是AI Agent Harness？Stripe每周1300次AI PR背后的架构",
+      "title_en": "What Is an AI Agent Harness? The Architecture Behind Stripe's 1,300 Weekly AI Pull Requests",
+      "added_at": "2026-03-29",
+      "url": "https://www.mindstudio.ai/blog/what-is-ai-agent-harness-stripe-minions"
+    },
+    {
+      "id": "art-9bd27ccf",
+      "type": "article",
+      "title_zh": "编写优秀的 CLAUDE.md 指南",
+      "title_en": "Writing a good CLAUDE.md",
+      "added_at": "2026-03-29",
+      "url": "https://www.humanlayer.dev/blog/writing-a-good-claude-md"
+    },
+    {
+      "id": "art-38398a1c",
+      "type": "article",
+      "title_zh": "AI Agent 内存文件完整指南",
+      "title_en": "The Complete Guide to AI Agent Memory Files (CLAUDE.md, AGENTS.md, and Beyond)",
+      "added_at": "2026-03-29",
+      "url": "https://medium.com/data-science-collective/the-complete-guide-to-ai-agent-memory-files-claude-md-agents-md-and-beyond-49ea0df5c5a9"
+    },
+    {
+      "id": "art-b6ff65ba",
+      "type": "article",
+      "title_zh": "Agent Harness：理解 Claude Code 的超级引擎",
+      "title_en": "Agent Harness: Understanding Claude Code's Superpower Engine",
+      "added_at": "2026-03-29",
+      "url": "https://medium.com/@fruitful2007/agent-harness-understanding-claude-codes-superpower-engine-85e35a7ec764"
+    },
+    {
+      "id": "art-362ad9b7",
+      "type": "article",
+      "title_zh": "AI代理的有效上下文工程",
+      "title_en": "Effective context engineering for AI agents",
+      "added_at": "2026-03-29",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
+    },
+    {
+      "id": "art-48cd7d99",
+      "type": "article",
+      "title_zh": "AI Agent Harness、上下文工程三原则与苦涩教训的重温",
+      "title_en": "AI Agent Harness, 3 Principles for Context Engineering, and the Bitter Lesson Revisited",
+      "added_at": "2026-03-29",
+      "url": "https://hugobowne.substack.com/p/ai-agent-harness-3-principles-for"
+    }
+  ],
+  "search_keywords": [
+    "harness engineering",
+    "agent harness",
+    "claude code harness",
+    "AGENTS.md best practice",
+    "context engineering agent",
+    "coding agent orchestration",
+    "agentic coding workflow",
+    "AI agent scaffold",
+    "LLM agent framework",
+    "autonomous coding agent",
+    "agent loop design",
+    "ralph wiggum technique",
+    "generator evaluator agent",
+    "agent context management",
+    "coding agent best practices",
+    "AI agent observability",
+    "agent skill system",
+    "MCP server agent",
+    "sub-agent orchestration",
+    "agent hook system",
+    "vibe coding vs harness engineering",
+    "agent first development",
+    "AI pair programming workflow",
+    "software engineering AI agent",
+    "claude code workflow"
+  ],
+  "pipeline_config": {
+    "max_new_items_per_run": 15,
+    "quality_threshold": 6.0,
+    "dedup_similarity_threshold": 0.85,
+    "search_results_per_keyword": 5
+  }
+}

@@ -1,0 +1,128 @@
+[
+  {
+    "id": "prac-001",
+    "category_zh": "上下文管理",
+    "category_en": "Context Management",
+    "practices_zh": [
+      "AGENTS.md 作为目录而非百科全书，指向更深层的真相来源",
+      "结构化 docs/ 目录作为知识库的系统记录",
+      "避免 LLM 生成的 AGENTS.md，应手工精心编写",
+      "使用 Skills 实现知识的渐进式披露，避免上下文污染",
+      "工具调用输出超过阈值时截断并存储到文件系统"
+    ],
+    "practices_en": [
+      "AGENTS.md as a directory, not an encyclopedia, pointing to deeper sources of truth",
+      "Structured docs/ directory as the system of record for the knowledge base",
+      "Avoid LLM-generated AGENTS.md; write it carefully by hand",
+      "Use Skills for progressive knowledge disclosure to avoid context pollution",
+      "Truncate tool call outputs exceeding thresholds and store to filesystem"
+    ],
+    "added_at": "2026-03-29",
+    "key_concepts": ["AGENTS.md", "Context Window", "Skills", "Progressive Disclosure"]
+  },
+  {
+    "id": "prac-002",
+    "category_zh": "架构约束",
+    "category_en": "Architectural Constraints",
+    "practices_zh": [
+      "用自定义 linter 和结构性测试机械化执行架构约束",
+      "定义并强制执行模块边界",
+      "保持数据结构稳定",
+      "代码可读性优先考虑 Agent 可读性",
+      "使用 CI/CD 质量门控而非依赖人工代码审查"
+    ],
+    "practices_en": [
+      "Mechanically enforce architectural constraints with custom linters and structural tests",
+      "Define and enforce module boundaries",
+      "Keep data structures stable",
+      "Prioritize agent readability over human readability",
+      "Use CI/CD quality gates instead of relying on human code review"
+    ],
+    "added_at": "2026-03-29",
+    "key_concepts": ["Linter", "Module Boundaries", "CI/CD", "Agent Readability"]
+  },
+  {
+    "id": "prac-003",
+    "category_zh": "反馈循环",
+    "category_en": "Feedback Loops",
+    "practices_zh": [
+      "Generator-Evaluator 分离解决自我评估偏差问题",
+      "Sprint 合同机制：在编码前协商'完成'的定义",
+      "使用 Playwright MCP 让评估 Agent 直接与运行中的应用交互",
+      "Ralph Wiggum Loop：通过 Hook 拦截 Agent 退出尝试，强制继续工作",
+      "Sub-agents 作为'上下文防火墙'维持长期任务的连贯性"
+    ],
+    "practices_en": [
+      "Generator-Evaluator separation to solve self-evaluation bias",
+      "Sprint contract mechanism: negotiate the definition of 'done' before coding",
+      "Use Playwright MCP to let evaluator agents interact directly with running applications",
+      "Ralph Wiggum Loop: intercept agent exit attempts via hooks to force continued work",
+      "Sub-agents as 'context firewalls' to maintain coherence in long-running tasks"
+    ],
+    "added_at": "2026-03-29",
+    "key_concepts": ["Generator-Evaluator", "Sprint Contract", "Ralph Loop", "Sub-agents"]
+  },
+  {
+    "id": "prac-004",
+    "category_zh": "可观测性",
+    "category_en": "Observability",
+    "practices_zh": [
+      "记录 Agent 的所有过程日志",
+      "用高性价比模型（如 DeepSeek）对日志做过程摘要",
+      "打上关键路径标签，便于问题诊断",
+      "每个 git worktree 有独立的可观测性栈",
+      "暴露日志、指标和追踪给 Agent 直接查询"
+    ],
+    "practices_en": [
+      "Record all process logs of the agent",
+      "Use cost-effective models (e.g., DeepSeek) for process log summarization",
+      "Tag critical paths for easy problem diagnosis",
+      "Each git worktree has an independent observability stack",
+      "Expose logs, metrics and traces for agents to query directly"
+    ],
+    "added_at": "2026-03-29",
+    "key_concepts": ["Logging", "Observability", "Metrics", "Tracing"]
+  },
+  {
+    "id": "prac-005",
+    "category_zh": "Harness 迭代",
+    "category_en": "Harness Iteration",
+    "practices_zh": [
+      "每个 Harness 组件都编码了对模型能力的假设，需要持续验证",
+      "新模型发布时重新审视 Harness，去除不再必要的组件",
+      "当 Agent 挣扎时，将其视为信号：识别缺失的工具、护栏或文档",
+      "一次只移除一个组件并观察影响，避免大规模重构",
+      "找到最简单的解决方案，只在需要时增加复杂度"
+    ],
+    "practices_en": [
+      "Each Harness component encodes assumptions about model capabilities that need continuous validation",
+      "Revisit the Harness when new models are released, removing no-longer-necessary components",
+      "When an agent struggles, treat it as a signal: identify missing tools, guardrails, or documentation",
+      "Remove only one component at a time and observe the impact to avoid large-scale refactoring",
+      "Find the simplest solution and only add complexity when needed"
+    ],
+    "added_at": "2026-03-29",
+    "key_concepts": ["Continuous Improvement", "Model Assumptions", "Simplicity"]
+  },
+  {
+    "id": "prac-006",
+    "category_zh": "工具设计",
+    "category_en": "Tool Design",
+    "practices_zh": [
+      "更少但更有表达力的工具优于庞大的工具集",
+      "组合式原语优于固执己见的工作流",
+      "让 Agent 通过 bash 工具自行设计工具",
+      "为 Agent 提供浏览器访问能力用于验证 UI 行为",
+      "使用沙箱隔离 Agent 执行环境，每个任务有独立的数据副本"
+    ],
+    "practices_en": [
+      "Fewer but more expressive tools over a large toolset",
+      "Composable primitives over opinionated workflows",
+      "Let agents design their own tools through bash tools",
+      "Provide agents with browser access for validating UI behavior",
+      "Use sandboxes to isolate agent execution environments with independent data copies per task"
+    ],
+    "added_at": "2026-03-29",
+    "key_concepts": ["Tool Design", "Composability", "Sandbox", "Browser Access"]
+  }
+]

@@ -1,0 +1,187 @@
+[
+  {
+    "id": "person-001",
+    "name": "Mitchell Hashimoto",
+    "role_zh": "HashiCorp 联合创始人",
+    "role_en": "Co-founder of HashiCorp",
+    "twitter": "mitchellh",
+    "blog": "https://mitchellh.com/writing/my-ai-adoption-journey",
+    "contribution_zh": "首次系统性提出并命名 'Engineer the Harness' 概念（2026年2月），奠定了整个领域的理论基础",
+    "contribution_en": "First systematically proposed and named the 'Engineer the Harness' concept (February 2026), laying the theoretical foundation for the entire field",
+    "key_quote_zh": "每当发现 Agent 犯错，就花时间工程化一个解决方案，让 Agent 永远不再犯同样的错误。",
+    "key_quote_en": "Whenever you find the agent making a mistake, spend time engineering a solution so the agent never makes that mistake again.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Engineer the Harness",
+      "AGENTS.md",
+      "Continuous Improvement"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "founders"
+    }
+  },
+  {
+    "id": "person-002",
+    "name": "Ryan Lopopolo",
+    "role_zh": "OpenAI 工程师",
+    "role_en": "Engineer at OpenAI",
+    "twitter": "lopopolo",
+    "blog": "https://openai.com/index/harness-engineering/",
+    "contribution_zh": "主导了 OpenAI 百万行代码零人工编写的 Harness Engineering 实践，发布了最具影响力的工程案例",
+    "contribution_en": "Led OpenAI's Harness Engineering practice of 1 million lines of code with zero human-written code, publishing the most influential engineering case study",
+    "key_quote_zh": "人类掌舵，智能体执行。",
+    "key_quote_en": "Humans steer. Agents execute.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Agent-first",
+      "AGENTS.md",
+      "Architectural Constraints"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "practitioners"
+    }
+  },
+  {
+    "id": "person-003",
+    "name": "Prithvi Rajasekaran",
+    "role_zh": "Anthropic Labs 成员",
+    "role_en": "Member at Anthropic Labs",
+    "twitter": "",
+    "blog": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+    "contribution_zh": "设计了 GAN 启发的三 Agent 架构（Planner、Generator、Evaluator），解决长期运行 Agent 的性能瓶颈",
+    "contribution_en": "Designed the GAN-inspired three-agent architecture (Planner, Generator, Evaluator) to solve performance bottlenecks in long-running agents",
+    "key_quote_zh": "Harness 设计是前沿 Agentic 编码性能的关键。",
+    "key_quote_en": "Harness design is key to performance at the frontier of agentic coding.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Generator-Evaluator",
+      "Multi-Agent Architecture",
+      "Long-running Agents"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "researchers"
+    }
+  },
+  {
+    "id": "person-004",
+    "name": "Vivek Trivedy",
+    "role_zh": "LangChain 工程师",
+    "role_en": "Engineer at LangChain",
+    "twitter": "Vtrivedy10",
+    "blog": "https://vtrivedy.com",
+    "contribution_zh": "撰写了 Agent Harness 解剖文章，将 LangChain 编码 Agent 从 Top 30 提升至 Top 5",
+    "contribution_en": "Authored the Agent Harness anatomy article, improving LangChain's coding agent from Top 30 to Top 5",
+    "key_quote_zh": "Agent = Model + Harness。如果你不是模型，你就是 Harness。",
+    "key_quote_en": "Agent = Model + Harness. If you're not the model, you're the harness.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Agent Anatomy",
+      "Performance Optimization",
+      "Context Management"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "practitioners"
+    }
+  },
+  {
+    "id": "person-005",
+    "name": "Birgitta Böckeler",
+    "role_zh": "Thoughtworks 杰出工程师",
+    "role_en": "Distinguished Engineer at Thoughtworks",
+    "twitter": "birgitta410",
+    "blog": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html",
+    "contribution_zh": "在 Martin Fowler 博客上发表了对 Harness Engineering 的深度分析，提出三大组件分类框架",
+    "contribution_en": "Published an in-depth analysis of Harness Engineering on Martin Fowler's blog, proposing a three-component classification framework",
+    "key_quote_zh": "我喜欢'Harness'这个词来描述我们可以用来约束 AI Agent 的工具和实践。",
+    "key_quote_en": "I like 'harness' as a word to describe the tooling and practices we can use to keep AI agents in check.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Three-component Framework",
+      "Tooling",
+      "Practices"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "analysts"
+    }
+  },
+  {
+    "id": "person-006",
+    "name": "卡颂 (kasong2048)",
+    "role_zh": "中文 AI 工程社区影响者",
+    "role_en": "Chinese AI Engineering Community Influencer",
+    "twitter": "kasong2048",
+    "blog": "https://x.com/kasong2048",
+    "contribution_zh": "在中文社区深度传播和实践 Harness Engineering，提出可观测性是最高优先级基建",
+    "contribution_en": "Deeply propagated and practiced Harness Engineering in the Chinese community, proposing observability as the highest priority infrastructure",
+    "key_quote_zh": "做 Harness Engineering，最高优的基建是什么呢？答案是——可观测性，也就是记录 Agent 的所有过程日志。",
+    "key_quote_en": "What is the highest priority infrastructure for Harness Engineering? The answer is observability — recording all process logs of the agent.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Observability",
+      "Process Logs",
+      "Chinese Community"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "community"
+    }
+  },
+  {
+    "id": "person-007",
+    "name": "Kyle Mistele",
+    "role_zh": "HumanLayer 创始人",
+    "role_en": "Founder of HumanLayer",
+    "twitter": "kylemistele",
+    "blog": "https://www.humanlayer.dev/blog",
+    "contribution_zh": "从实战角度系统性总结了 Harness Engineering 的配置点和最佳实践",
+    "contribution_en": "Systematically summarized Harness Engineering configuration points and best practices from a practical perspective",
+    "key_quote_zh": "这不是模型问题，这是配置问题。",
+    "key_quote_en": "It's not a model problem. It's a configuration problem.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Configuration",
+      "Skills",
+      "Hooks",
+      "MCP Servers"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "practitioners"
+    }
+  },
+  {
+    "id": "person-008",
+    "name": "Cassie Kozyrkov",
+    "role_zh": "Kozyr CEO，前 Google 首席决策科学家",
+    "role_en": "CEO of Kozyr, former Chief Decision Scientist at Google",
+    "twitter": "quaesita",
+    "blog": "https://kozyrkov.medium.com",
+    "contribution_zh": "从监督和决策科学角度阐释 Harness Engineering，拓展了概念的应用边界",
+    "contribution_en": "Interpreted Harness Engineering from a supervision and decision science perspective, expanding the conceptual boundaries",
+    "key_quote_zh": "AI 现在写代码了。真正重要的技能是控制它构建什么。",
+    "key_quote_en": "AI writes the code now. The skill that matters is controlling what it builds.",
+    "added_at": "2026-03-29",
+    "key_concepts": [
+      "Supervision",
+      "Decision Science",
+      "Control"
+    ],
+    "relations": [],
+    "graph_node": {
+      "type": "person",
+      "cluster": "analysts"
+    }
+  }
+]

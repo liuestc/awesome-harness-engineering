@@ -1,0 +1,98 @@
+[
+  {
+    "id": "tl-001",
+    "date": "2025-07",
+    "event_zh": "Geoffrey Huntley 发布 Ralph Wiggum 技术，开创 Agent 自主循环模式",
+    "event_en": "Geoffrey Huntley releases the Ralph Wiggum technique, pioneering the agent autonomous loop pattern",
+    "importance": "high",
+    "related_ids": ["repo-009"]
+  },
+  {
+    "id": "tl-002",
+    "date": "2026-01",
+    "event_zh": "OpenAI 开始内部 Harness Engineering 实验，5 个月构建百万行代码",
+    "event_en": "OpenAI begins internal Harness Engineering experiments, building 1 million lines of code in 5 months",
+    "importance": "high",
+    "related_ids": ["art-002"]
+  },
+  {
+    "id": "tl-003",
+    "date": "2026-02-05",
+    "event_zh": "Mitchell Hashimoto 发布 'My AI Adoption Journey'，首次系统命名 Harness Engineering",
+    "event_en": "Mitchell Hashimoto publishes 'My AI Adoption Journey', first systematic naming of Harness Engineering",
+    "importance": "critical",
+    "related_ids": ["art-003", "person-001"]
+  },
+  {
+    "id": "tl-004",
+    "date": "2026-02-11",
+    "event_zh": "OpenAI 发布 'Harness engineering: leveraging Codex in an agent-first world'",
+    "event_en": "OpenAI publishes 'Harness engineering: leveraging Codex in an agent-first world'",
+    "importance": "critical",
+    "related_ids": ["art-002", "person-002"]
+  },
+  {
+    "id": "tl-005",
+    "date": "2026-02-17",
+    "event_zh": "LangChain 发布 Harness Engineering 改进报告，Terminal Bench 2.0 从 Top 30 跃升至 Top 5",
+    "event_en": "LangChain publishes Harness Engineering improvement report, jumping from Top 30 to Top 5 on Terminal Bench 2.0",
+    "importance": "high",
+    "related_ids": ["art-006", "person-004"]
+  },
+  {
+    "id": "tl-006",
+    "date": "2026-02-17",
+    "event_zh": "Birgitta Böckeler 在 Martin Fowler 博客发布 Harness Engineering 深度分析",
+    "event_en": "Birgitta Böckeler publishes in-depth Harness Engineering analysis on Martin Fowler's blog",
+    "importance": "high",
+    "related_ids": ["art-004", "person-005"]
+  },
+  {
+    "id": "tl-007",
+    "date": "2026-03-05",
+    "event_zh": "Cassie Kozyrkov 发布 'Harness Engineering: How to Supervise Code You Can't Read'",
+    "event_en": "Cassie Kozyrkov publishes 'Harness Engineering: How to Supervise Code You Can't Read'",
+    "importance": "medium",
+    "related_ids": ["art-008", "person-008"]
+  },
+  {
+    "id": "tl-008",
+    "date": "2026-03-07",
+    "event_zh": "AutoJunjie/awesome-agent-harness 仓库创建，社区开始系统整理资源",
+    "event_en": "AutoJunjie/awesome-agent-harness repository created, community begins systematic resource organization",
+    "importance": "medium",
+    "related_ids": ["repo-005"]
+  },
+  {
+    "id": "tl-009",
+    "date": "2026-03-10",
+    "event_zh": "LangChain 发布 'The Anatomy of an Agent Harness'",
+    "event_en": "LangChain publishes 'The Anatomy of an Agent Harness'",
+    "importance": "high",
+    "related_ids": ["art-005", "person-004"]
+  },
+  {
+    "id": "tl-010",
+    "date": "2026-03-12",
+    "event_zh": "HumanLayer 发布 'Skill Issue: Harness Engineering for Coding Agents'",
+    "event_en": "HumanLayer publishes 'Skill Issue: Harness Engineering for Coding Agents'",
+    "importance": "medium",
+    "related_ids": ["art-007", "person-007"]
+  },
+  {
+    "id": "tl-011",
+    "date": "2026-03-24",
+    "event_zh": "Anthropic 发布 'Harness design for long-running application development'",
+    "event_en": "Anthropic publishes 'Harness design for long-running application development'",
+    "importance": "critical",
+    "related_ids": ["art-001", "person-003"]
+  },
+  {
+    "id": "tl-012",
+    "date": "2026-03-28",
+    "event_zh": "卡颂（kasong2048）发布系列推文，在中文社区深度传播 Harness Engineering",
+    "event_en": "kasong2048 publishes a series of tweets, deeply propagating Harness Engineering in the Chinese community",
+    "importance": "medium",
+    "related_ids": ["person-006"]
+  }
+]

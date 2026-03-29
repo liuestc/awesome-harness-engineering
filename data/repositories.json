@@ -1,0 +1,332 @@
+[
+  {
+    "id": "repo-001",
+    "name": "shareAI-lab/learn-claude-code",
+    "url": "https://github.com/shareAI-lab/learn-claude-code",
+    "description_zh": "Harness Engineering for Real Agents — 系统性学习 Claude Code Harness 工程的教程仓库，从基础到高级实践",
+    "description_en": "Harness Engineering for Real Agents — A systematic tutorial repository for learning Claude Code Harness Engineering, from basics to advanced practices",
+    "category": "教程/学习",
+    "tags": [
+      "harness",
+      "claude-code",
+      "tutorial"
+    ],
+    "stars": null,
+    "language": "中文/英文",
+    "quality_score": 8.5,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Harness Engineering",
+      "Claude Code",
+      "Agent Tutorial"
+    ],
+    "relations": [],
+    "ai_summary_zh": "系统性学习 Claude Code Harness 工程的教程仓库，涵盖从基础概念到高级实践的完整路径。",
+    "ai_summary_en": "A systematic tutorial for Claude Code Harness Engineering covering the complete path from basic concepts to advanced practices.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "tutorials"
+    }
+  },
+  {
+    "id": "repo-002",
+    "name": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "description_zh": "Agent harness 性能优化系统，包含 Skills、Instincts、Memory、Security 和 Research-first 开发模式",
+    "description_en": "Agent harness performance optimization system with Skills, Instincts, Memory, Security and Research-first development patterns",
+    "category": "框架/工具",
+    "tags": [
+      "harness",
+      "claude-code",
+      "skills",
+      "memory"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 9.0,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Skills",
+      "Memory",
+      "Security",
+      "Research-first"
+    ],
+    "relations": [],
+    "ai_summary_zh": "全面的 Claude Code Agent Harness 优化系统，提供技能、记忆、安全等多维度的性能提升方案。",
+    "ai_summary_en": "Comprehensive Claude Code Agent Harness optimization system providing multi-dimensional performance improvements including skills, memory, and security.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "frameworks"
+    }
+  },
+  {
+    "id": "repo-003",
+    "name": "shanraisshan/claude-code-best-practice",
+    "url": "https://github.com/shanraisshan/claude-code-best-practice",
+    "description_zh": "Claude Code 最佳实践集合，包含 86 个 Tips & Tricks，涵盖 Harness 设计技巧",
+    "description_en": "Claude Code best practices collection with 86 Tips & Tricks covering Harness design techniques",
+    "category": "最佳实践",
+    "tags": [
+      "best-practice",
+      "claude-code",
+      "tips"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.0,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Best Practices",
+      "Tips & Tricks",
+      "Harness Design"
+    ],
+    "relations": [],
+    "ai_summary_zh": "收录 86 个 Claude Code 使用技巧，是 Harness 设计实践的重要参考资料。",
+    "ai_summary_en": "Collection of 86 Claude Code tips and tricks, an important reference for Harness design practices.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "best-practices"
+    }
+  },
+  {
+    "id": "repo-004",
+    "name": "hesreallyhim/awesome-claude-code",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "description_zh": "精选的 Claude Code Skills、Hooks、Slash-commands、Agent Orchestrators 和插件列表",
+    "description_en": "Curated list of Claude Code Skills, Hooks, Slash-commands, Agent Orchestrators and plugins",
+    "category": "Awesome List",
+    "tags": [
+      "awesome",
+      "claude-code",
+      "skills",
+      "hooks"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.5,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Skills",
+      "Hooks",
+      "Slash Commands",
+      "Orchestrators"
+    ],
+    "relations": [],
+    "ai_summary_zh": "Claude Code 生态系统的精选资源列表，涵盖技能、钩子、命令和编排器等核心组件。",
+    "ai_summary_en": "Curated resource list for the Claude Code ecosystem covering skills, hooks, commands and orchestrators.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "awesome-lists"
+    }
+  },
+  {
+    "id": "repo-005",
+    "name": "AutoJunjie/awesome-agent-harness",
+    "url": "https://github.com/AutoJunjie/awesome-agent-harness",
+    "description_zh": "Agent Harness Engineering 工具、框架和资源的精选列表，包含 8 大分类",
+    "description_en": "Curated list of Agent Harness Engineering tools, frameworks and resources with 8 major categories",
+    "category": "Awesome List",
+    "tags": [
+      "awesome",
+      "harness",
+      "agent"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.0,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Agent Harness",
+      "Awesome List",
+      "Tools",
+      "Frameworks"
+    ],
+    "relations": [],
+    "ai_summary_zh": "专注于 Agent Harness Engineering 的精选资源列表，系统性整理了工具和框架。",
+    "ai_summary_en": "Curated resource list focused on Agent Harness Engineering, systematically organizing tools and frameworks.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "awesome-lists"
+    }
+  },
+  {
+    "id": "repo-006",
+    "name": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "description_zh": "Claude Code 的 Agentic Skills 框架，支持 SDD 完整流程串联，可在 Claude Code 官方 Marketplace 安装",
+    "description_en": "Agentic Skills framework for Claude Code supporting complete SDD workflow chaining, installable from Claude Code Marketplace",
+    "category": "框架/工具",
+    "tags": [
+      "skills",
+      "claude-code",
+      "agentic",
+      "sdd"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.5,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Agentic Skills",
+      "SDD",
+      "Claude Code Marketplace"
+    ],
+    "relations": [],
+    "ai_summary_zh": "为 Claude Code 提供强大的 Agentic Skills 框架，支持规格驱动开发的完整流程。",
+    "ai_summary_en": "Powerful Agentic Skills framework for Claude Code supporting complete specification-driven development workflows.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "frameworks"
+    }
+  },
+  {
+    "id": "repo-007",
+    "name": "humanlayer/humanlayer",
+    "url": "https://github.com/humanlayer/humanlayer",
+    "description_zh": "CodeLayer 开源 IDE，用于编排 AI 编码 Agent，包含经过实战检验的工作流",
+    "description_en": "CodeLayer open-source IDE for orchestrating AI coding agents with battle-tested workflows",
+    "category": "工具/IDE",
+    "tags": [
+      "codelayer",
+      "harness",
+      "orchestration",
+      "ide"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.0,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "CodeLayer",
+      "IDE",
+      "Orchestration",
+      "Workflows"
+    ],
+    "relations": [],
+    "ai_summary_zh": "开源的 AI 编码 Agent 编排 IDE，提供经过生产验证的工作流模板。",
+    "ai_summary_en": "Open-source IDE for orchestrating AI coding agents with production-validated workflow templates.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "tools"
+    }
+  },
+  {
+    "id": "repo-008",
+    "name": "Meirtz/Awesome-Context-Engineering",
+    "url": "https://github.com/Meirtz/Awesome-Context-Engineering",
+    "description_zh": "Context Engineering 资源综合调查，从静态提示到动态上下文感知 AI 系统的演进",
+    "description_en": "Comprehensive survey of Context Engineering resources, from static prompts to dynamic context-aware AI systems",
+    "category": "Awesome List",
+    "tags": [
+      "context-engineering",
+      "awesome",
+      "prompts"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.5,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Context Engineering",
+      "Dynamic Context",
+      "AI Systems"
+    ],
+    "relations": [],
+    "ai_summary_zh": "全面的 Context Engineering 资源调查，是理解 Harness Engineering 上下文管理组件的重要参考。",
+    "ai_summary_en": "Comprehensive Context Engineering resource survey, an important reference for understanding the context management component of Harness Engineering.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "context-engineering"
+    }
+  },
+  {
+    "id": "repo-009",
+    "name": "Th0rgal/open-ralph-wiggum",
+    "url": "https://github.com/Th0rgal/open-ralph-wiggum",
+    "description_zh": "实现 Ralph Wiggum 技术的开源工具，支持 Claude Code、Codex 等 AI 编码 Agent 的自主循环",
+    "description_en": "Open-source implementation of the Ralph Wiggum technique supporting autonomous loops for Claude Code, Codex and other AI coding agents",
+    "category": "工具",
+    "tags": [
+      "ralph-wiggum",
+      "loop",
+      "autonomous",
+      "claude-code"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 7.5,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Ralph Wiggum",
+      "Autonomous Loop",
+      "Hook Interception"
+    ],
+    "relations": [],
+    "ai_summary_zh": "Ralph Wiggum 技术的开源实现，通过 Hook 拦截 Agent 退出尝试，实现自主持续工作循环。",
+    "ai_summary_en": "Open-source implementation of the Ralph Wiggum technique, intercepting agent exit attempts via hooks to enable autonomous continuous work loops.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "feedback-loops"
+    }
+  },
+  {
+    "id": "repo-010",
+    "name": "drivelineresearch/autoresearch-claude-code",
+    "url": "https://github.com/drivelineresearch/autoresearch-claude-code",
+    "description_zh": "Claude Code 的自主实验循环，给定目标、基准和文件后无限循环：尝试想法、测量结果、改进",
+    "description_en": "Autonomous research loop for Claude Code: given goals, benchmarks and files, infinitely loops: try ideas, measure results, improve",
+    "category": "工具",
+    "tags": [
+      "autoresearch",
+      "autonomous",
+      "loop",
+      "research"
+    ],
+    "stars": null,
+    "language": "英文",
+    "quality_score": 8.0,
+    "added_at": "2026-03-29",
+    "updated_at": "2026-03-29",
+    "raw_content": "",
+    "key_concepts": [
+      "Autoresearch",
+      "Autonomous Loop",
+      "Benchmarking"
+    ],
+    "relations": [],
+    "ai_summary_zh": "为 Claude Code 提供自主研究循环能力，实现目标驱动的持续实验和改进。",
+    "ai_summary_en": "Provides autonomous research loop capability for Claude Code, enabling goal-driven continuous experimentation and improvement.",
+    "embeddings_ready": false,
+    "graph_node": {
+      "type": "repository",
+      "cluster": "feedback-loops"
+    }
+  }
+]
