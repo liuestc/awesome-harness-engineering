@@ -1,0 +1,1362 @@
+{
+  "generated_at": "2026-03-30T00:24:43Z",
+  "stats": {
+    "total_nodes": 58,
+    "total_edges": 99,
+    "node_types": {
+      "concept": 12,
+      "person": 10,
+      "organization": 3,
+      "repo": 10,
+      "article": 23
+    },
+    "edge_types": {
+      "part_of": 2,
+      "implements": 18,
+      "influenced_by": 2,
+      "authored": 2,
+      "discusses": 75
+    }
+  },
+  "clusters": {
+    "foundations": {
+      "label_zh": "基础理论",
+      "label_en": "Foundations",
+      "color": "#3B82F6"
+    },
+    "context-engineering": {
+      "label_zh": "上下文工程",
+      "label_en": "Context Engineering",
+      "color": "#10B981"
+    },
+    "feedback-loops": {
+      "label_zh": "反馈循环",
+      "label_en": "Feedback Loops",
+      "color": "#F59E0B"
+    },
+    "best-practices": {
+      "label_zh": "最佳实践",
+      "label_en": "Best Practices",
+      "color": "#8B5CF6"
+    },
+    "tools": {
+      "label_zh": "工具",
+      "label_en": "Tools",
+      "color": "#EF4444"
+    },
+    "frameworks": {
+      "label_zh": "框架",
+      "label_en": "Frameworks",
+      "color": "#06B6D4"
+    },
+    "observability": {
+      "label_zh": "可观测性",
+      "label_en": "Observability",
+      "color": "#EC4899"
+    },
+    "community": {
+      "label_zh": "社区",
+      "label_en": "Community",
+      "color": "#14B8A6"
+    },
+    "general": {
+      "label_zh": "通用",
+      "label_en": "General",
+      "color": "#94A3B8"
+    }
+  },
+  "nodes": [
+    {
+      "id": "concept_harness_engineering",
+      "label": "Harness Engineering",
+      "type": "concept",
+      "url": "",
+      "desc": "The discipline of designing execution environments that constrain and guide AI agents",
+      "cluster": "foundations",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0483,
+      "degree": 54
+    },
+    {
+      "id": "concept_agent_loop",
+      "label": "Agent Loop",
+      "type": "concept",
+      "url": "",
+      "desc": "The iterative perceive-think-act cycle of an AI agent",
+      "cluster": "foundations",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0278,
+      "degree": 29
+    },
+    {
+      "id": "concept_context_engineering",
+      "label": "Context Engineering",
+      "type": "concept",
+      "url": "",
+      "desc": "Crafting the information environment (context window) for AI agents",
+      "cluster": "context-engineering",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0117,
+      "degree": 9
+    },
+    {
+      "id": "concept_tool_use",
+      "label": "Tool Use",
+      "type": "concept",
+      "url": "",
+      "desc": "Agent ability to call external tools and APIs",
+      "cluster": "frameworks",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0089,
+      "degree": 4
+    },
+    {
+      "id": "concept_observability",
+      "label": "Observability",
+      "type": "concept",
+      "url": "",
+      "desc": "Monitoring and tracing agent behavior and decision paths",
+      "cluster": "observability",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0082,
+      "degree": 2
+    },
+    {
+      "id": "concept_feedback_loop",
+      "label": "Feedback Loop",
+      "type": "concept",
+      "url": "",
+      "desc": "Mechanisms for agents to observe results and self-correct",
+      "cluster": "feedback-loops",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0075,
+      "degree": 2
+    },
+    {
+      "id": "concept_context_gc",
+      "label": "Context GC",
+      "type": "concept",
+      "url": "",
+      "desc": "Strategies for managing and pruning the agent context window",
+      "cluster": "context-engineering",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0067,
+      "degree": 1
+    },
+    {
+      "id": "concept_prompt_engineering",
+      "label": "Prompt Engineering",
+      "type": "concept",
+      "url": "",
+      "desc": "Crafting inputs to guide model outputs",
+      "cluster": "foundations",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0067,
+      "degree": 1
+    },
+    {
+      "id": "concept_vibe_coding",
+      "label": "Vibe Coding",
+      "type": "concept",
+      "url": "",
+      "desc": "Casual AI-assisted coding without systematic engineering discipline",
+      "cluster": "community",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0066,
+      "degree": 2
+    },
+    {
+      "id": "concept_ralph_loop",
+      "label": "Ralph Loop",
+      "type": "concept",
+      "url": "",
+      "desc": "Mitchell Hashimoto's framework: Read-Act-Learn-Plan-Harness",
+      "cluster": "foundations",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0042,
+      "degree": 3
+    },
+    {
+      "id": "concept_multi_agent",
+      "label": "Multi-Agent Systems",
+      "type": "concept",
+      "url": "",
+      "desc": "Architectures with multiple coordinating AI agents",
+      "cluster": "frameworks",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.003,
+      "degree": 2
+    },
+    {
+      "id": "concept_agents_md",
+      "label": "AGENTS.md",
+      "type": "concept",
+      "url": "",
+      "desc": "Project-level instruction file that defines agent behavior and constraints",
+      "cluster": "best-practices",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "person_mitchell_hashimoto",
+      "label": "Mitchell Hashimoto",
+      "type": "person",
+      "url": "https://mitchellh.com",
+      "desc": "HashiCorp founder, coined Harness Engineering",
+      "cluster": "community",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "person_kasong2048",
+      "label": "kasong2048",
+      "type": "person",
+      "url": "https://x.com/kasong2048",
+      "desc": "Key Harness Engineering advocate on X",
+      "cluster": "community",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "org_anthropic",
+      "label": "Anthropic Engineering",
+      "type": "organization",
+      "url": "https://anthropic.com/engineering",
+      "desc": "Published foundational Harness design patterns",
+      "cluster": "community",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "org_openai",
+      "label": "OpenAI",
+      "type": "organization",
+      "url": "https://openai.com",
+      "desc": "Published Harness Engineering best practices",
+      "cluster": "community",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "org_humanlayer",
+      "label": "HumanLayer",
+      "type": "organization",
+      "url": "https://humanlayer.dev",
+      "desc": "Human-in-the-loop for AI agents",
+      "cluster": "tools",
+      "quality_score": 0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "repo-001",
+      "label": "shareAI-lab/learn-claude-code",
+      "type": "repo",
+      "url": "https://github.com/shareAI-lab/learn-claude-code",
+      "desc": "系统性学习 Claude Code Harness 工程的教程仓库，涵盖从基础概念到高级实践的完整路径。",
+      "cluster": "tutorials",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "repo-002",
+      "label": "affaan-m/everything-claude-code",
+      "type": "repo",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "desc": "全面的 Claude Code Agent Harness 优化系统，提供技能、记忆、安全等多维度的性能提升方案。",
+      "cluster": "frameworks",
+      "quality_score": 9.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "repo-003",
+      "label": "shanraisshan/claude-code-best-practice",
+      "type": "repo",
+      "url": "https://github.com/shanraisshan/claude-code-best-practice",
+      "desc": "收录 86 个 Claude Code 使用技巧，是 Harness 设计实践的重要参考资料。",
+      "cluster": "best-practices",
+      "quality_score": 8.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "repo-004",
+      "label": "hesreallyhim/awesome-claude-code",
+      "type": "repo",
+      "url": "https://github.com/hesreallyhim/awesome-claude-code",
+      "desc": "Claude Code 生态系统的精选资源列表，涵盖技能、钩子、命令和编排器等核心组件。",
+      "cluster": "awesome-lists",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "repo-005",
+      "label": "AutoJunjie/awesome-agent-harness",
+      "type": "repo",
+      "url": "https://github.com/AutoJunjie/awesome-agent-harness",
+      "desc": "专注于 Agent Harness Engineering 的精选资源列表，系统性整理了工具和框架。",
+      "cluster": "awesome-lists",
+      "quality_score": 8.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "repo-006",
+      "label": "obra/superpowers",
+      "type": "repo",
+      "url": "https://github.com/obra/superpowers",
+      "desc": "为 Claude Code 提供强大的 Agentic Skills 框架，支持规格驱动开发的完整流程。",
+      "cluster": "frameworks",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "repo-007",
+      "label": "humanlayer/humanlayer",
+      "type": "repo",
+      "url": "https://github.com/humanlayer/humanlayer",
+      "desc": "开源的 AI 编码 Agent 编排 IDE，提供经过生产验证的工作流模板。",
+      "cluster": "tools",
+      "quality_score": 8.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "repo-008",
+      "label": "Meirtz/Awesome-Context-Engineering",
+      "type": "repo",
+      "url": "https://github.com/Meirtz/Awesome-Context-Engineering",
+      "desc": "全面的 Context Engineering 资源调查，是理解 Harness Engineering 上下文管理组件的重要参考。",
+      "cluster": "context-engineering",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 4
+    },
+    {
+      "id": "repo-009",
+      "label": "Th0rgal/open-ralph-wiggum",
+      "type": "repo",
+      "url": "https://github.com/Th0rgal/open-ralph-wiggum",
+      "desc": "Ralph Wiggum 技术的开源实现，通过 Hook 拦截 Agent 退出尝试，实现自主持续工作循环。",
+      "cluster": "feedback-loops",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "repo-010",
+      "label": "drivelineresearch/autoresearch-claude-code",
+      "type": "repo",
+      "url": "https://github.com/drivelineresearch/autoresearch-claude-code",
+      "desc": "为 Claude Code 提供自主研究循环能力，实现目标驱动的持续实验和改进。",
+      "cluster": "feedback-loops",
+      "quality_score": 8.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-001",
+      "label": "长期应用开发的 Harness 设计",
+      "type": "article",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "desc": "",
+      "cluster": "feedback-loops",
+      "quality_score": 9.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "art-002",
+      "label": "Harness 工程：在 Agent 优先的世界中利用 Codex",
+      "type": "article",
+      "url": "https://openai.com/index/harness-engineering/",
+      "desc": "",
+      "cluster": "context-engineering",
+      "quality_score": 9.8,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-003",
+      "label": "我的 AI 采用之旅",
+      "type": "article",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "desc": "",
+      "cluster": "foundations",
+      "quality_score": 9.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-004",
+      "label": "Harness Engineering（Martin Fowler 博客）",
+      "type": "article",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html",
+      "desc": "",
+      "cluster": "analysis",
+      "quality_score": 9.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "art-005",
+      "label": "Agent Harness 的解剖",
+      "type": "article",
+      "url": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
+      "desc": "",
+      "cluster": "architecture",
+      "quality_score": 9.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "art-006",
+      "label": "通过 Harness Engineering 改进深度 Agent",
+      "type": "article",
+      "url": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/",
+      "desc": "",
+      "cluster": "performance",
+      "quality_score": 9.2,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-007",
+      "label": "技能问题：编码 Agent 的 Harness Engineering",
+      "type": "article",
+      "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents",
+      "desc": "",
+      "cluster": "best-practices",
+      "quality_score": 8.8,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-008",
+      "label": "Harness Engineering：如何监督你无法阅读的代码",
+      "type": "article",
+      "url": "https://kozyrkov.medium.com/harness-engineering-how-to-supervise-code-you-cant-read-71ebd05bfde7",
+      "desc": "",
+      "cluster": "supervision",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "art-91051e13",
+      "label": "Harness 工程：AI Agent 缺失的关键层",
+      "type": "article",
+      "url": "https://www.louisbouchard.ai/harness-engineering",
+      "desc": "文章阐述了Harness工程与提示工程、上下文工程的区别，强调Harness工程是AI代理可靠运行的关键层。作者指出AI代理虽然已经足够有用但还不够可靠，需要通过约束机制、反馈回路和持续改进循环来构建",
+      "cluster": "foundations",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-495186aa",
+      "label": "什么是 Harness Engineering？AI Agent 开发完整指南 (2026)",
+      "type": "article",
+      "url": "https://www.nxcode.io/resources/news/what-is-harness-engineering-complete-guide-2026",
+      "desc": "NxCode 发布的 Harness Engineering 完整指南，涵盖 AI Agent 的约束机制、反馈回路和持续改进循环等核心概念，是理解 Agent = Model + Harness 公",
+      "cluster": "foundations",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-b33b869f",
+      "label": "构建生产级AI Agent Harness",
+      "type": "article",
+      "url": "https://dev.to/apssouza22/building-a-production-ready-ai-agent-harness-2570",
+      "desc": "本文探讨构建生产级AI Agent Harness的重要性，强调AI Agent开发中90%的工作是\"管道工程\"（The Plumbing），只有10%是\"大脑\"（The Brain）。文章详细介绍了",
+      "cluster": "frameworks/best-practices",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-e063101d",
+      "label": "什么是 Agent Harness？可靠 AI 的关键",
+      "type": "article",
+      "url": "https://www.salesforce.com/agentforce/ai-agents/agent-harness",
+      "desc": "Salesforce 介绍了 AI agent harness 的概念，定义为管理 AI 工具、记忆和安全性的操作软件层，以确保可靠、自主的任务执行。Harness 作为基础设施层，弥补了单纯大语言模",
+      "cluster": "tools",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-85f91a62",
+      "label": "什么是AI Agent Harness？Stripe每周1300次AI PR背后的架构",
+      "type": "article",
+      "url": "https://www.mindstudio.ai/blog/what-is-ai-agent-harness-stripe-minions",
+      "desc": "文章介绍了Stripe如何使用AI Agent Harness（名为Minions）实现每周1300次AI驱动的代码提交。详细解释了Harness作为模型与现实世界交互的脚手架，如何提供工具访问、内存",
+      "cluster": "foundations/context-engineering/feedback-loops/best-practices",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 4
+    },
+    {
+      "id": "art-9bd27ccf",
+      "label": "编写优秀的 CLAUDE.md 指南",
+      "type": "article",
+      "url": "https://www.humanlayer.dev/blog/writing-a-good-claude-md",
+      "desc": "本文探讨如何为AI编码代理编写有效的CLAUDE.md文件。作者指出LLM本质是无状态的，需要显式管理代理的记忆。CLAUDE.md是唯一默认进入每个对话的文件，应包含WHAT（技术栈和项目结构）、W",
+      "cluster": "context-engineering/best-practices",
+      "quality_score": 8.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-38398a1c",
+      "label": "AI Agent 内存文件完整指南",
+      "type": "article",
+      "url": "https://medium.com/data-science-collective/the-complete-guide-to-ai-agent-memory-files-claude-md-agents-md-and-beyond-49ea0df5c5a9",
+      "desc": "本文深入探讨了AI Agent配置文件生态系统，包括CLAUDE.md、AGENTS.md、.cursorrules等文件的作用和放置位置，帮助开发者通过配置文件将无状态的AI编码助手转变为能够记住项",
+      "cluster": "context-engineering",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "art-b6ff65ba",
+      "label": "Agent Harness：理解 Claude Code 的超级引擎",
+      "type": "article",
+      "url": "https://medium.com/@fruitful2007/agent-harness-understanding-claude-codes-superpower-engine-85e35a7ec764",
+      "desc": "文章深入探讨 Claude Code 高效代码生成的背后原因，揭示其核心并非模型本身，而是精心设计的 Agent Harness 系统。作者阐述从提示工程向上下文工程的演进，解读 Anthropic ",
+      "cluster": "foundations/context-engineering",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-362ad9b7",
+      "label": "AI代理的有效上下文工程",
+      "type": "article",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "desc": "Anthropic工程团队发布的关于AI代理上下文工程的深度文章。文章指出上下文工程是提示工程的自然演进，从单纯优化提示词扩展到管理推理时的完整上下文配置，以引导模型产生期望行为。",
+      "cluster": "context-engineering",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-48cd7d99",
+      "label": "AI Agent Harness、上下文工程三原则与苦涩教训的重温",
+      "type": "article",
+      "url": "https://hugobowne.substack.com/p/ai-agent-harness-3-principles-for",
+      "desc": "本文基于与LangChain机器学习工程师Lance Martin的深度对话，探讨了从模型训练向编排的范式转变，强调AI Agent Harness（智能体 harness）的重要性，介绍了上下文工程",
+      "cluster": "foundations/context-engineering/feedback-loops",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "art-a60354b8",
+      "label": "为生产环境构建高效的多智能体框架",
+      "type": "article",
+      "url": "https://developers.googleblog.com/architecting-efficient-context-aware-multi-agent-framework-for-production",
+      "desc": "探讨构建生产级AI智能体中的上下文工程挑战，介绍Google ADK框架的上下文管理方案，涵盖成本延迟、信号衰减、物理限制等核心问题。",
+      "cluster": "context-engineering/frameworks",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "art-2d2df9b9",
+      "label": "企业工作流效率的AI智能体编排",
+      "type": "article",
+      "url": "https://www.moveworks.com/us/en/resources/blog/improve-workflow-efficiency-with-ai-agent-orchestration",
+      "desc": "本文探讨了AI智能体编排如何解决企业中多个孤立AI智能体导致的问题，包括重复通知、不一致答案和碎片化体验。文章强调了编排作为缺失的AI智能体基础架构的重要性，能够连接和协调智能体协作执行跨企业系统的端",
+      "cluster": "foundations/agent-orchestration",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-b285ed71",
+      "label": "工作流编排代理 - AWS 规范指南",
+      "type": "article",
+      "url": "https://docs.aws.amazon.com/prescriptive-guidance/latest/agentic-ai-patterns/workflow-orchestration-agents.html",
+      "desc": "AWS发布的关于工作流编排代理的规范指南，介绍如何管理和协调分布式系统中的多步骤任务、流程和服务，包括代理组合、事件驱动执行、内存状态跟踪、分层或并行任务编排等能力。",
+      "cluster": "orchestration",
+      "quality_score": 8.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 3
+    },
+    {
+      "id": "art-1df62a30",
+      "label": "2025年工作流中编码代理的使用体验",
+      "type": "article",
+      "url": "https://www.jackmarchant.com/using-coding-agents-in-my-workflow-in-2025",
+      "desc": "一篇关于在2025年日常工程工作流中集成AI编码代理（特别是Cursor）的实践文章，作者分享了从自动补全到代理处理研究、规划和完整开发任务的演进过程，以及个人代理与团队代理的对比思考。",
+      "cluster": "tools/frameworks",
+      "quality_score": 7.5,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "art-4b796802",
+      "label": "使用 Microsoft Agent Framework 构建多代理工作流自动化解决方案",
+      "type": "article",
+      "url": "https://learn.microsoft.com/en-us/azure/architecture/ai-ml/idea/multiple-agent-workflow-automation",
+      "desc": "本文介绍了一种使用多个专业AI代理协调和自动运行组织任务的多代理自动化解决方案。通过Azure Container Apps部署代理，使用Microsoft Foundry和Semantic Kern",
+      "cluster": "frameworks",
+      "quality_score": 7.2,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "person-001",
+      "label": "Mitchell Hashimoto",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "founders",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "person-002",
+      "label": "Ryan Lopopolo",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "practitioners",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "person-003",
+      "label": "Prithvi Rajasekaran",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "researchers",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "person-004",
+      "label": "Vivek Trivedy",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "practitioners",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 2
+    },
+    {
+      "id": "person-005",
+      "label": "Birgitta Böckeler",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "analysts",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "person-006",
+      "label": "卡颂 (kasong2048)",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "community",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 1
+    },
+    {
+      "id": "person-007",
+      "label": "Kyle Mistele",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "practitioners",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 0
+    },
+    {
+      "id": "person-008",
+      "label": "Cassie Kozyrkov",
+      "type": "person",
+      "url": "",
+      "desc": "",
+      "cluster": "analysts",
+      "quality_score": 7.0,
+      "date_added": "",
+      "pagerank": 0.0026,
+      "degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_context_engineering",
+      "type": "part_of",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_agent_loop",
+      "type": "implements",
+      "weight": 0.9
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_feedback_loop",
+      "type": "implements",
+      "weight": 0.85
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_observability",
+      "type": "implements",
+      "weight": 0.8
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_context_gc",
+      "type": "implements",
+      "weight": 0.8
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_tool_use",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "concept_ralph_loop",
+      "target": "concept_harness_engineering",
+      "type": "part_of",
+      "weight": 0.95
+    },
+    {
+      "source": "concept_agents_md",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.85
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_vibe_coding",
+      "type": "influenced_by",
+      "weight": 0.7
+    },
+    {
+      "source": "concept_harness_engineering",
+      "target": "concept_prompt_engineering",
+      "type": "influenced_by",
+      "weight": 0.8
+    },
+    {
+      "source": "concept_multi_agent",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.8
+    },
+    {
+      "source": "person_mitchell_hashimoto",
+      "target": "concept_harness_engineering",
+      "type": "authored",
+      "weight": 1.0
+    },
+    {
+      "source": "person_mitchell_hashimoto",
+      "target": "concept_ralph_loop",
+      "type": "authored",
+      "weight": 1.0
+    },
+    {
+      "source": "org_anthropic",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.9
+    },
+    {
+      "source": "org_openai",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.85
+    },
+    {
+      "source": "person_kasong2048",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.9
+    },
+    {
+      "source": "org_humanlayer",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.8
+    },
+    {
+      "source": "repo-001",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-001",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-001",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-002",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-003",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-003",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-004",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-005",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-005",
+      "target": "concept_tool_use",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-005",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-006",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-006",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-007",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-008",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-008",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-008",
+      "target": "concept_multi_agent",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-008",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-009",
+      "target": "concept_ralph_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-009",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-009",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "repo-010",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "repo-010",
+      "target": "concept_harness_engineering",
+      "type": "implements",
+      "weight": 0.75
+    },
+    {
+      "source": "art-001",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-001",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-001",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-002",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-002",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-003",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-003",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-004",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-005",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-005",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-005",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-006",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-006",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-007",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-007",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-008",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-91051e13",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-91051e13",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-495186aa",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-495186aa",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b33b869f",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b33b869f",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-e063101d",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-e063101d",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-85f91a62",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-85f91a62",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-85f91a62",
+      "target": "concept_tool_use",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-85f91a62",
+      "target": "concept_vibe_coding",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-9bd27ccf",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-9bd27ccf",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-38398a1c",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-38398a1c",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-38398a1c",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b6ff65ba",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b6ff65ba",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-362ad9b7",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-362ad9b7",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-48cd7d99",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-48cd7d99",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-48cd7d99",
+      "target": "concept_feedback_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-a60354b8",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-a60354b8",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-a60354b8",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-2d2df9b9",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-2d2df9b9",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b285ed71",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b285ed71",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-b285ed71",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-1df62a30",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-1df62a30",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-4b796802",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "art-4b796802",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-001",
+      "target": "concept_harness_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-001",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-002",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-003",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-004",
+      "target": "concept_agent_loop",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-004",
+      "target": "concept_context_engineering",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-005",
+      "target": "concept_tool_use",
+      "type": "discusses",
+      "weight": 0.7
+    },
+    {
+      "source": "person-006",
+      "target": "concept_observability",
+      "type": "discusses",
+      "weight": 0.7
+    }
+  ]
+}
