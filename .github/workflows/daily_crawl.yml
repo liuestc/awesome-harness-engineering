@@ -56,6 +56,16 @@ jobs:
           MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
         run: python scripts/build_graph.py
 
+      - name: Install image rendering dependencies
+        run: |
+          sudo apt-get install -y fonts-noto-cjk
+          pip install Pillow
+
+      - name: Generate daily digest cards
+        env:
+          MINIMAX_API_KEY: ${{ secrets.MINIMAX_API_KEY }}
+        run: python scripts/generate_digest.py
+
       - name: Check for changes
         id: check_changes
         run: |
@@ -70,7 +80,10 @@ jobs:
           TIMESTAMP=$(date -u "+%Y-%m-%d %H:%M UTC")
           REPOS=$(python3 -c "import json; d=json.load(open('data/meta.json')); print(d['stats']['repositories'])")
           ARTICLES=$(python3 -c "import json; d=json.load(open('data/meta.json')); print(d['stats']['articles'])")
-          git commit -m "🤖 Daily update: ${TIMESTAMP} | ${REPOS} repos, ${ARTICLES} articles"
+          HEADLINE=$(python3 -c "import json; d=json.load(open('data/meta.json')); digests=d.get('daily_digests',[]); print(digests[0]['headline'] if digests else '') " 2>/dev/null || echo '')
+          git commit -m "🤖 Daily update: ${TIMESTAMP} | ${REPOS} repos, ${ARTICLES} articles
+
+📰 今日图文: ${HEADLINE}"
           git push
 
       - name: No changes found

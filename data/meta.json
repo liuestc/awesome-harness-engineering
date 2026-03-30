@@ -121,5 +121,22 @@
     "quality_threshold": 6.0,
     "dedup_similarity_threshold": 0.85,
     "search_results_per_keyword": 5
-  }
+  },
+  "daily_digests": [
+    {
+      "date": "2026-03-29",
+      "article_count": 8,
+      "headline": "5个让AI Agent稳如老狗的Harness设计",
+      "cards": [
+        "card_00_cover.png",
+        "card_01_1.png",
+        "card_02_2.png",
+        "card_03_3.png",
+        "card_04_4.png",
+        "card_05_5.png",
+        "card_07_summary.png"
+      ]
+    }
+  ],
+  "last_digest_date": "2026-03-29"
 }

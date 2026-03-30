@@ -1,0 +1,122 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-03-29T21:12:13.329784+08:00",
+  "article_count": 8,
+  "content": {
+    "cover": {
+      "headline": "5个让AI Agent稳如老狗的Harness设计",
+      "subtitle": "从AGENTS.md到上下文管理，Agent工程化实践",
+      "tags": [
+        "AI Agent",
+        "Harness Engineering",
+        "LLM应用",
+        "工程化",
+        "架构设计"
+      ]
+    },
+    "cards": [
+      {
+        "index": 1,
+        "title": "什么是Harness Engineering",
+        "emoji": "🔧",
+        "body": "Harness就是给AI Agent套上的「安全带」！它不是限制Agent能力，而是提供架构约束、上下文管理和验证机制，让Agent在可控范围内发挥最大价值。简单说：Harness = Context Engineering + Architectural Constraints + Validation。Martin Fowler把它比作JVM——一个让代码可靠运行的运行时环境。",
+        "quote": "Harness让Agent在可控范围内发挥最大价值",
+        "source": "Martin Fowler"
+      },
+      {
+        "index": 2,
+        "title": "AGENTS.md：Agent的宪法",
+        "emoji": "📜",
+        "body": "Anthropic官方推荐的AGENTS.md文件，定义了Agent的行为边界、决策流程和错误处理策略。实战中比System Prompt更稳定，因为它是项目级规范而非单次对话配置。Claud Code、Cursor等主流工具都在用这套规范。好的AGENTS.md让新Agent快速融入项目，降低Context Rot风险。",
+        "quote": "AGENTS.md是Agent的项目级宪法",
+        "source": "Codex Agent"
+      },
+      {
+        "index": 3,
+        "title": "Context：Agent的短时记忆",
+        "emoji": "🧠",
+        "body": "Context Rot是Agent性能下降的隐形杀手！当上下文窗口塞满「垃圾」时，Agent开始遗忘关键信息。解决方案：实施Context Garbage Collection策略，用Evaluator评估上下文相关性，定期清理低价值信息。Ralph Loop理论指出：保持Context精简可将Agent任务完成率提升40%+。",
+        "quote": "Context Garbage Collection防Agent「老年痴呆」",
+        "source": "Agent Anatomy"
+      },
+      {
+        "index": 4,
+        "title": "Generator-Evaluator架构",
+        "emoji": "⚡",
+        "body": "Multi-Agent协作的核心范式！Generator负责快速生成方案（代码、计划），Evaluator负责质量评估和反馈。两者形成闭环迭代，像Sprint Contract一样限定迭代次数，避免Agent陷入无限思考。Terminal Bench测试显示：这种架构让深度Agent的任务执行效率提升60%，同时减少Token消耗。",
+        "quote": "Generator-Evaluator让Agent迭代更高效",
+        "source": "长期应用开发"
+      },
+      {
+        "index": 5,
+        "title": "Supervision：监督你读不懂的代码",
+        "emoji": "👁️",
+        "body": "当Agent生成上千行代码时，人类如何监督？答案是Specification-Driven Validation！先定义清晰的规格说明（Specification），再让Agent Self-Validate。Supervision Harness提供多层验证：语法检查→逻辑验证→功能测试。配合MCP Servers工具链，即使Agent输出复杂，也能被系统化地验证和约束。",
+        "quote": "Specification-Driven Validation让监督可规模化",
+        "source": "Supervision"
+      }
+    ],
+    "summary": {
+      "title": "Harness Engineering 核心要点",
+      "points": [
+        "AGENTS.md定义行为边界",
+        "Context管理防信息过载",
+        "Generator-Evaluator提效",
+        "Supervision保障质量"
+      ],
+      "cta": "关注我，追踪AI Agent工程化最新实践",
+      "hashtags": [
+        "#HarnessEngineering",
+        "#AI工程师",
+        "#Claude",
+        "#AgentDev",
+        "#技术前沿",
+        "#LLM应用",
+        "#MultiAgent",
+        "#ContextEngineering"
+      ]
+    }
+  },
+  "source_articles": [
+    {
+      "title": "长期应用开发的 Harness 设计",
+      "url": "https://www.anthropic.com/engineering/harness-design-long-running-apps",
+      "score": 9.5
+    },
+    {
+      "title": "Harness 工程：在 Agent 优先的世界中利用 Codex",
+      "url": "https://openai.com/index/harness-engineering/",
+      "score": 9.8
+    },
+    {
+      "title": "我的 AI 采用之旅",
+      "url": "https://mitchellh.com/writing/my-ai-adoption-journey",
+      "score": 9.5
+    },
+    {
+      "title": "Harness Engineering（Martin Fowler 博客）",
+      "url": "https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html",
+      "score": 9.0
+    },
+    {
+      "title": "Agent Harness 的解剖",
+      "url": "https://blog.langchain.com/the-anatomy-of-an-agent-harness/",
+      "score": 9.0
+    },
+    {
+      "title": "通过 Harness Engineering 改进深度 Agent",
+      "url": "https://blog.langchain.com/improving-deep-agents-with-harness-engineering/",
+      "score": 9.2
+    },
+    {
+      "title": "技能问题：编码 Agent 的 Harness Engineering",
+      "url": "https://www.humanlayer.dev/blog/skill-issue-harness-engineering-for-coding-agents",
+      "score": 8.8
+    },
+    {
+      "title": "Harness Engineering：如何监督你无法阅读的代码",
+      "url": "https://kozyrkov.medium.com/harness-engineering-how-to-supervise-code-you-cant-read-71ebd05bfde7",
+      "score": 8.5
+    }
+  ]
+}

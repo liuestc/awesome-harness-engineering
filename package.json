@@ -1,0 +1,15 @@
+{
+  "name": "awesome-harness-engineering-repo",
+  "version": "1.0.0",
+  "description": "> **Harness Engineering** — 驾驭 AI Agent 的工程艺术。围绕 AI Agent 构建约束机制、反馈回路和持续改进循环的系统工程实践。 > > `Agent = Model + Harness`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
+}
