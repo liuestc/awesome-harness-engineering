@@ -151,20 +151,9 @@ jobs:
             DATE=$(date +%Y-%m-%d)
             REPOS=$(python3 -c "import json; print(len(json.load(open('data/repositories.json'))))" 2>/dev/null || echo "?")
             ARTICLES=$(python3 -c "import json; print(len(json.load(open('data/articles.json'))))" 2>/dev/null || echo "?")
-            HEADLINE=$(python3 -c "
-import json, sys
-try:
-    d = json.load(open('data/daily_digest/$(date +%Y-%m-%d)/digest.json'))
-    print(d.get('content', {}).get('cover', {}).get('title', ''))
-except: print('')
-" 2>/dev/null || echo "")
+            HEADLINE=$(python3 -c "import json; d=json.load(open('data/daily_digest/$(date +%Y-%m-%d)/digest.json')); print(d.get('content',{}).get('cover',{}).get('title',''))" 2>/dev/null || echo "")
 
-            git commit -m "🤖 Daily update ${DATE}: ${REPOS} repos, ${ARTICLES} articles
-
-📰 今日图文: ${HEADLINE}
-🕸️ Knowledge graph updated
-🔍 Search index refreshed
-🎨 5 template digest cards generated"
+            git commit -m "🤖 Daily update ${DATE}: ${REPOS} repos, ${ARTICLES} articles | 📰 ${HEADLINE} | 🕸️ Graph updated | 🔍 Search refreshed | 🎨 5 cards generated"
 
             git push
             echo "✅ All changes pushed to GitHub"
@@ -180,43 +169,7 @@ except: print('')
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASS: ${{ secrets.SMTP_PASS }}
         run: |
-          python3 - <<'PYEOF'
-          import os, smtplib
-          from email.mime.text import MIMEText
-          from datetime import datetime
-
-          smtp_user = os.environ.get("SMTP_USER", "")
-          smtp_pass = os.environ.get("SMTP_PASS", "")
-          notify_email = os.environ.get("NOTIFY_EMAIL", "")
-          smtp_host = os.environ.get("SMTP_HOST", "smtp.qq.com")
-          smtp_port = int(os.environ.get("SMTP_PORT", "587"))
-
-          if not all([smtp_user, smtp_pass, notify_email]):
-              print("Email config incomplete, skipping notification")
-              exit(0)
-
-          body = f"""Harness Engineering Pipeline 运行失败！
-
-时间: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC
-仓库: https://github.com/liuestc/awesome-harness-engineering
-Actions 日志: https://github.com/liuestc/awesome-harness-engineering/actions
-
-请检查 GitHub Actions 日志了解详情。"""
-
-          msg = MIMEText(body, "plain", "utf-8")
-          msg["Subject"] = "⚠️ Harness Engineering Pipeline 运行失败"
-          msg["From"] = smtp_user
-          msg["To"] = notify_email
-
-          try:
-              with smtplib.SMTP(smtp_host, smtp_port) as s:
-                  s.starttls()
-                  s.login(smtp_user, smtp_pass)
-                  s.sendmail(smtp_user, notify_email, msg.as_string())
-              print(f"Failure notification sent to {notify_email}")
-          except Exception as e:
-              print(f"Failed to send notification: {e}")
-          PYEOF
+          python3 scripts/notify_failure.py || echo "Notification script not found, skipping"
 
   # ── 每周六：构建完整 Embedding 向量索引 ───────────────────────────────────
   weekly_embeddings:
